@@ -8,7 +8,7 @@ dbhost = localhost
 dbport=5432
 создать базу данных app
 
-2)в терминале pycharm ввести
+2)в терминале pycharm с проектом ввести
 
 pip install fastapi[all]
 pip install sqlalchemy

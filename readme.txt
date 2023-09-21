@@ -1,5 +1,6 @@
 для запуска нужно:
-установить postgresql + pgadmin
+
+1)установить postgresql + pgadmin
 
 dbuser = postgres
 dbpassword = postgres
@@ -7,13 +8,15 @@ dbhost = localhost
 dbport=5432
 создать базу данных app
 
-в терминале pycharm ввести
+2)в терминале pycharm ввести
 
 pip install fastapi[all]
 pip install sqlalchemy
 pip install psycopg2
 
-запуск
+запуск:
+
+в терминале pycharm ввести
 
 uvicorn main:app --reload
 

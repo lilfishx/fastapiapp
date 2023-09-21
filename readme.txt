@@ -16,7 +16,7 @@ pip install psycopg2
 
 запуск:
 
-в терминале pycharm ввести
+в терминале pycharm с проектом ввести
 
 uvicorn main:app --reload
 

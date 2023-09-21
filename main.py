@@ -33,6 +33,7 @@ connection = engine.connect()
 with open("init-db.sql") as file:
     query = text(file.read())
     connection.execute(query)
+    connection.commit()
 
 
 @app.get("/users", response_class=HTMLResponse)

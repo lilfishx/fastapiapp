@@ -21,3 +21,7 @@ pip install psycopg2
 uvicorn main:app --reload
 
 на localhost появится приложение
+
+выход:
+
+ctrl + c в терминале
